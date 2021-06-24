@@ -1,0 +1,388 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+
+.container{
+	max-width: 1100px;
+    margin: auto;
+	padding: 20px;
+}
+
+.logo{
+	height:100px;
+	width:90px;
+}
+
+.header{
+	width: 1100px;
+    margin: auto;
+	border-collapse: collapse;
+    text-align: center;
+}
+
+.title-header{
+	font-size: 18px;
+    font-weight: bold;
+	border: 1px solid black;
+	font-family
+}
+
+.unique-form{
+	text-align: right;
+	display: block;
+	margin-right:30px;
+	margin-top:10px;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+body{
+	font-family:Segoe UI;
+}
+
+.head{
+	text-align:center;
+	font-size: 22px;
+	font-weight:bold;
+}
+
+.sub-head{
+	text-align:center;
+	font-size:18px;
+}
+
+.border-bottom{
+	border-bottom:3px solid black;
+	margin-top: 10px;
+}
+
+.sub-border-bottom{
+	border-bottom:7px solid black;
+	margin-top:2px;
+}
+
+.main-head{
+	color:blue;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom:10px;
+}
+
+.form{
+	border:1px solid black;
+}
+
+.flex{
+	display: flex;
+}
+
+.signature{
+	border-top: 1px solid black;
+	width:250px;
+	text-align:center;
+	padding:10px;
+	margin-top:150px;
+	margin-left:100px;
+	margin-bottom:40px;
+	font-size:20px;
+}
+
+.date{
+	border-top: 1px solid black;
+	width:250px;
+	text-align:center;
+	padding:10px;
+	margin-top:150px;
+	margin-left:100px;
+	margin-bottom:40px;
+	font-size:20px;
+}
+
+.input-photo{
+	border:1px solid black;
+	width:90px;
+	height:90px;
+	display:block;
+	padding-top:35px;
+	padding-left:30px;
+	padding-bottom:65px;
+	padding-right: 50px;
+	margin-left: 100px;
+	margin-top: 25px;
+}
+
+.fill{
+	border:collapse;
+	background-color:#d1e9f0;
+}
+
+.input-fill-1{
+	color:blue;
+	font-size:18px;
+	font-weight:bold;
+	border-top:1px solid black;
+	padding-left: 5px;
+}
+
+.checkbox1{
+	border-right: 1px solid black;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:200px;
+	text-align: center;
+	margin-left:200px;
+	margin-right: 200px;
+}
+
+.checkbox2{
+	padding:5px;
+	text-align: center;
+}
+
+.input-fill-2{
+	color:blue;
+	font-size:18px;
+	font-weight:bold;
+	border-top:1px solid black;
+	padding-left: 5px;
+}
+
+.pad{
+	padding-left:30px;
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right:100px;
+}
+
+.checkbox3{
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right:90px;
+	
+}
+
+.checkbox4{
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right:100px;
+}
+
+.checkbox5{
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right:100px;
+	border-right:1px solid black;
+}
+
+.checkbox6{
+	padding-top: 5px;
+	padding-bottom:5px;
+	padding-right:50px;
+	border-right:1px solid black;
+	padding-left:5px;
+}
+
+.checkbox7{
+	padding: 5px;
+	
+}
+
+.input-fill-3{
+	color:blue;
+	font-size:18px;
+	font-weight:bold;
+	border-top:1px solid black;
+	padding-left: 5px;
+}
+
+.textbox1{
+	margin-left: 100px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	width: 200px;
+	height: 25px;
+	font-size:18px;
+
+}
+
+.textbox2{
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	width: 200px;
+	height: 25px;
+	font-size:18px;
+
+}
+
+.textbox3{
+	margin-left: 50px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	width: 200px;
+	height: 25px;
+	font-size:18px;
+
+}
+
+.text1{
+	font-size:18px;
+	padding-left:5px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	font-weight: bold;
+}
+
+.margin{
+	margin:10px;
+}
+
+.textbox4{
+	margin-top: 5px;
+	margin-bottom: 5px; 
+	width: 330px;
+	height: 25px;
+	font-size:18px;
+}
+
+.text2{
+	font-size:18px;
+	padding-left:5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	border-right:1px solid black;
+	padding-right:30px;
+}
+
+.text3{
+	font-size:18px;
+	padding-left:5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+}
+
+.input-fill-4{
+	border-top:1px solid black;
+}
+
+.input-fill-5-border{
+	border-right:1px solid black;
+	padding-bottom: 10px;
+	border-top: 1px solid black;
+	width:250px;
+}
+
+.input-fill-5{
+	border-collapse: collapse;
+	background-color: #d1e9f0;
+	padding-left: 10px;
+	border-bottom: 1px solid black;
+	font-size: 18px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+
+}
+
+.textbox5{
+	width:120px;
+}
+
+.input-fill-5-last-col{
+	width: 200px;
+	border-top: 1px solid black;
+}
+
+.padding{
+	padding-left:5px;
+}
+
+.input-fill-6{
+	font-size:18px;
+	padding-left:5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	border-right:1px solid black;
+	padding-right:55px;
+	border-top: 1px solid black;
+}
+
+.input-fill-6-col{
+	font-size:18px;
+	padding-left:5px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	padding-right:90px;
+	border-top: 1px solid black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002730;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #B8E4EE;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #002730;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #B8E4EE;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo2{
+  width: 35px;
+  height: 35px;
+  margin-top: 6px;
+  margin-right: 10px;
+  float: right;
+}
