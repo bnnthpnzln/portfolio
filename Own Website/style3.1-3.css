@@ -1,0 +1,165 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+
+td{
+	border: 1px solid black;
+	padding:5px;
+	text-align: center;
+}
+
+body{
+	font-family: century gothic;
+}
+
+.container{
+	max-width: auto;
+    margin: auto;
+}
+
+.head{
+	text-align: center;
+	font-size: 25px;
+	padding:5px;
+	font-weight: bold;
+}
+
+.table{
+	border:1px solid black;
+	border-collapse:collapse;
+}
+
+
+.input-data{
+	border: transparent;
+	outline: none;
+	width: 22px;
+	padding:0;
+	text-align: center;
+	margin: 0;
+}
+
+.td-input-data{
+	width: 20px;
+	padding:2px;
+}
+
+.input-sn{
+	border: transparent;
+	outline: none;
+	width: 50px;
+	padding:0;
+	text-align: center;
+	margin: 0;
+}
+
+.input-name{
+	border: transparent;
+	outline: none;
+	width: 200px;
+	padding:0;
+	text-align: center;
+	margin: 0;
+}
+
+.preliminary-color{
+	background-color: #FCF898;
+	font-weight: bold;
+}
+
+.total-grade-color{
+	background-color: #9DE3E0;
+	font-weight: bold;
+}
+
+.equiv-color{
+	background-color: #F9E260;
+	font-weight: bold;
+}
+
+.prelim-style{
+	background-color: #FBC147;
+	font-weight: bold;
+}
+
+.equiv-style{
+	background-color: #FCF33E;
+	font-weight: bold;
+}
+
+.vertical{
+	writing-mode: vertical-lr;
+}
+
+.input-title{
+	border: transparent;
+	outline: none;
+	width: 200px;
+	padding:0;
+	text-align: center;
+	margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #002730;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #B8E4EE;
+  color: black;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #002730;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #B8E4EE;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo{
+  width: 35px;
+  height: 35px;
+  margin-top: 6px;
+  margin-right: 10px;
+  float: right;
+}
